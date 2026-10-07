@@ -1,6 +1,10 @@
 
 body {
     background-color: bisque;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
 }
 
 header {
@@ -11,7 +15,7 @@ header {
 
     background-image: url(/images/photo-1633553554718-b299b718c418.avif);
     background-size: cover; 
-    background-position: 50%;
+    background-position: 100%;
     height: 300px;
     width: 100%;
     display: flex;
@@ -28,6 +32,9 @@ header h1 {
     color: white;
     margin: 0px;
     font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   
    
 }
@@ -38,6 +45,10 @@ header h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     font-variant: small-caps;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
     
 
     
@@ -79,11 +90,20 @@ nav ul li a {
     height: 150px;
     width: 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-color: white;
+    border: 3px solid black;
     padding: 40px;
     margin: 40px;
+    
+}
+
+.section #Tours {
+
+    
+
+
 }
 
 
